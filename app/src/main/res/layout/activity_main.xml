@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.demo.com.quizui.MainActivity"
+    android:background="@drawable/bg_quiz"
+    >
+
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:layout_alignParentTop="true"
+        >
+
+        <include layout="@layout/level_bar"  android:layout_height="100dp" android:layout_width="match_parent" android:id="@+id/score" />
+
+
+        <link.fls.swipestack.SwipeStack
+            android:layout_weight="0.3"
+            android:id="@+id/swipeStack"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_below="@+id/score"
+            android:paddingBottom="0dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            app:allowed_swipe_directions="only_right"
+            app:stack_rotation="10"
+            app:stack_size="4"
+            app:stack_spacing="4dp" />
+        <android.support.v7.widget.RecyclerView android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/swipeStack"
+            android:layout_alignParentStart="true"></android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

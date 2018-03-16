@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="activity_vertical_margin">18dp</dimen>
+    <dimen name="nav_header_vertical_spacing">18dp</dimen>
+    <dimen name="activity_horizontal_margin">18dp</dimen>
+    <dimen name="nav_header_height">220dp</dimen>
+
+    <!--sidemenu-->
+    <dimen name="badge_item_size">28dp</dimen>
+    <dimen name="badge_item_margin_top">10dp</dimen>
+    <dimen name="badge_cart_size">22dp</dimen>
+    <dimen name="badge_cart_icon">40dp</dimen>
+    <dimen name="design_navigation_icon_size" tools:override="true">25dp</dimen>
+    <dimen name="design_navigation_text_size" tools:override="true">16sp</dimen>
+    <dimen name="design_navigation_item_height">45dp</dimen>
+    <dimen name="header_text_size" tools:override="true">20sp</dimen>
+</resources>

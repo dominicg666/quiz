@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d0909</color>
+    <color name="colorPrimaryDark">#0d0909</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorbackground">#043f50</color>
+    <color name="colorbackground_two">#0a467e</color>
+    <color name="colorBlack">#333</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorRanom1">#80ffe3</color>
+    <color name="colorRanom2">#8ce4ff</color>
+    <color name="colorRanom3">#efc7ff</color>
+    <color name="colorGoldLight">#ffe8a6</color>
+    <color name="colorGold">#d88e1e</color>
+    <color name="colorMenuTrans">#9e000000</color>
+    <color name="colorBlacktrans">#ffffff</color>
+    <color name="colorbackgroundgray">#f5f3ed</color>
+
+
+    <color name="colorRanomDark1">#16cfa7</color>
+    <color name="colorRanomDark2">#16aad6</color>
+    <color name="colorRanomDark3">#ab18e6</color>
+    <color name="colorRandomDark4">#382dff</color>
+    <color name="colorRandomDark5">#d88e1e</color>
+    <color name="colorSuccess">#98f1ab</color>
+    <color name="colorDanger">#f47c96</color>
+
+</resources>
